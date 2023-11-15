@@ -1,12 +1,14 @@
 # interview-template
 
-
-
 ## Why this repo?
+
+Used to auto-generate interview questions into rss feeds, providing cross-platform support.
+
+Easier to configure than Anki flashcard, and a better choice.
 
 
 ## How to use?
 
-Add your questions list to docs folder
+Click `Use this template` button, got your own template.
 
-
+Put markdown files in the docs folder，workflow will regenerate RSS feed in a few minutes

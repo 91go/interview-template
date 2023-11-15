@@ -34,8 +34,7 @@ jobs:
           cat .github/repo/LICENSE > LICENSE
           # Cleanup
           rm -rf .github/repo
-          rm -rf .github/linters
-          rm -rf .github/workflows/init.yml && rm -rf .github/workflows/linters.yml
+          rm -rf .github/workflows/init.yml
       - uses: actions/setup-go@v3
         with:
           go-version: '1.20'
