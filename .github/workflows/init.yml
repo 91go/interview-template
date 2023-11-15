@@ -36,13 +36,7 @@ jobs:
           cat .github/repo/README.md > README.md
           cat .github/repo/LICENSE > LICENSE
           # Cleanup
-          rm -rf \
-            .github/repo \
-            .github/workflows/init.yml \
-            .github/workflows/linters.yml \
-            .github/workflows/mlc.yml \
-            .github/linters \
-            README_EN.md \
+          rm -rf .github/repo && .github/linters && .github/workflows/init.yml && .github/workflows/linters.yml && .github/workflows/mlc.yml
       - uses: actions/setup-go@v3
         with:
           go-version: '1.20'
@@ -56,11 +50,12 @@ jobs:
         run: |
           go install github.com/kpym/gm@latest
           gm output.md > output.html
-          rm output.md
+          rm -rf output.md
       - name: Convert HTML to RSS
         run: |
           go install github.com/91go/feedgen@latest
           feedgen gen -f output.html > feed.xml
+          rm -rf output.html
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
