@@ -14,11 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.name != 'interview-template'
     steps:
-
       # Check out current repository
-      - name: Fetch Sources
-        uses: actions/checkout@v2
-
+      - uses: actions/checkout@v3
       # Cleanup project
       - name: Cleanup
         run: |
@@ -38,11 +35,10 @@ jobs:
           # Cleanup
           rm -rf .github/repo
           rm -rf .github/linters
-          rm -rf .github/workflows/init.yml && rm -rf .github/workflows/linters.yml && rm -rf .github/workflows/mlc.yml
+          rm -rf .github/workflows/init.yml && rm -rf .github/workflows/linters.yml
       - uses: actions/setup-go@v3
         with:
           go-version: '1.20'
-      - uses: actions/checkout@v3
       - id: generate
         run: |
           go install github.com/91go/docs-training@latest
