@@ -60,11 +60,14 @@ jobs:
         run: |
           go install github.com/91go/feedgen@latest
           feedgen gen -f output.html > feed.xml
+          rm -rf \
+            output.md
+            output.html
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add feed.xml
+          git add .
           git commit -m "Update site"
       - name: Push changes
         uses: ad-m/github-push-action@master
