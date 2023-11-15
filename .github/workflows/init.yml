@@ -56,13 +56,11 @@ jobs:
         run: |
           go install github.com/kpym/gm@latest
           gm output.md > output.html
+          rm output.md
       - name: Convert HTML to RSS
         run: |
           go install github.com/91go/feedgen@latest
           feedgen gen -f output.html > feed.xml
-          rm -rf \
-            output.md
-            output.html
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
