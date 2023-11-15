@@ -41,8 +41,7 @@ jobs:
       - id: generate
         run: |
           go install github.com/91go/docs-training@latest
-          echo -e "$(docs-training batch -w docs -n ${{ env.num }})" >> output.md
-          echo -e "$(docs-training count -w docs)" > output.md
+          echo -e "$(docs-training batch -w docs -n 10)" >> output.md
       - name: Convert Markdown to HTML
         run: |
           go install github.com/kpym/gm@latest
