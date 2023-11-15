@@ -11,4 +11,8 @@ Easier to configure than Anki flashcard, and a better choice.
 
 Click `Use this template` button, got your own template.
 
-Put markdown files in the docs folder，workflow will regenerate RSS feed in a few minutes
+Put markdown files in the docs folder, workflow will regenerate RSS feed in a few minutes.
+
+Please list all questions using markdown unordered list format.
+
+
