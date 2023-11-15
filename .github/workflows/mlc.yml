@@ -20,33 +20,3 @@ jobs:
           use-verbose-mode: 'yes' # 展示状态码
           config-file: '.github/workspace/mlc_config.json'
           file-extension: ${{ matrix.file-extension }}
-
-#      uses: filiph/linkcheck@latest
-#      with:
-#        arguments: <URL>
-
-#      - name: mlc
-#        uses: becheran/mlc@v0.16.2
-#        with:
-#          args: |
-#            --debug false
-#            --markup-types Markdown
-#            --throttle 100
-#            --ignore-links "https://github.com/codersway/*"
-#            --ignore-links "https://github.com/hapihacking/*"
-#            --ignore-links "https://github.com/Coolnz/*"
-#            --ignore-links "https://github.com/91go/*"
-#            --ignore-links "https://supjav.com/*"
-#            --ignore-links "https://91porny.com/*"
-#            --ignore-links "https://javbus.com/*"
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#      - uses: JustinBeckwith/linkinator-action@v1.10.4
-#        with:
-#          paths: ./..
-#          concurrency: 50
-#          timeout: 2
-#          markdown: true
-#          linksToSkip: "https://github.com/codersway/*, https://github.com/hapihacking/*, https://github.com/Coolnz/*, https://github.com/91go/*, https://supjav.com/*, https://91porny.com/*"
-
