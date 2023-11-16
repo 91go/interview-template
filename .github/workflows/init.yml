@@ -7,7 +7,6 @@ on:
 permissions: write-all
 
 jobs:
-
   # Run cleaning process only if workflow is triggered by the other repository.
   template-cleanup:
     name: Template Cleanup

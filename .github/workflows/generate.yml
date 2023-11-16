@@ -7,7 +7,12 @@ on:
 permissions: write-all
 
 env:
-  NUM: 10
+  NUM: 30
+  RSS_TITLE: "interview-questions"
+  RSS_DESCRIPTION: ""
+  RSS_AUTHOR: "hhackin"
+  RSS_MAIL: ""
+  RSS_LINK: "https://github.com/hhackin"
 
 jobs:
   issue-weekly:
@@ -28,7 +33,7 @@ jobs:
       - name: Convert HTML to RSS
         run: |
           go install github.com/91go/feedgen@latest
-          feedgen gen -f output.html > feed.xml
+          feedgen gen -f output.html -t ${{ env.RSS_TITLE }} -author ${{ env.RSS_AUTHOR }} -des ${{ env.RSS_DESCRIPTION }} -mail ${{ env.RSS_MAIL }} -link ${{ env.RSS_LINK }} > feed.xml
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
