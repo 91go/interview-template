@@ -6,13 +6,19 @@ on:
     - cron: '0 0 1 * *'
 permissions: write-all
 
+#   -a, --author string        custom feed author (default "nobody")
+#  -d, --description string   custom feed description (default "feedgen is a cli tool that help you quickly build RSS feed")
+#  -f, --filename string      HTML file ready to display
+#  -l, --link string          custom feed link (default "https://github.com/dashboard")
+#  -m, --mail string          custom author's mail (default "nobody@gmail.com")
+#  -n, --title string         custom feed title (default "interview-questions")
 env:
   NUM: 30
   RSS_TITLE: "interview-questions"
-  RSS_DESCRIPTION: ""
-  RSS_AUTHOR: "hhackin"
-  RSS_MAIL: ""
-  RSS_LINK: "https://github.com/hhackin"
+  RSS_DESCRIPTION: "feedgen is a cli tool that help you quickly build RSS feed", "custom feed description"
+  RSS_AUTHOR: "nobody"
+  RSS_MAIL: "nobody@gmail.com"
+  RSS_LINK: "https://github.com/dashboard"
 
 jobs:
   issue-weekly:
@@ -33,7 +39,7 @@ jobs:
       - name: Convert HTML to RSS
         run: |
           go install github.com/91go/feedgen@latest
-          feedgen gen -f output.html -t ${{ env.RSS_TITLE }} -author ${{ env.RSS_AUTHOR }} -des ${{ env.RSS_DESCRIPTION }} -mail ${{ env.RSS_MAIL }} -link ${{ env.RSS_LINK }} > feed.xml
+          feedgen gen --filename output.html --title ${{ env.RSS_TITLE }} --author ${{ env.RSS_AUTHOR }} --description ${{ env.RSS_DESCRIPTION }} --mail ${{ env.RSS_MAIL }} --link ${{ env.RSS_LINK }} > feed.xml
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
