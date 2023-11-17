@@ -15,7 +15,7 @@ permissions: write-all
 env:
   NUM: 30
   RSS_TITLE: "interview-questions"
-  RSS_DESCRIPTION: "feedgen is a cli tool that help you quickly build RSS feed", "custom feed description"
+  RSS_DESCRIPTION: "feedgen is a cli tool that help you quickly build RSS feed"
   RSS_AUTHOR: "nobody"
   RSS_MAIL: "nobody@gmail.com"
   RSS_LINK: "https://github.com/dashboard"
