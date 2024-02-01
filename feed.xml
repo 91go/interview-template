@@ -4,9 +4,9 @@
     <link></link>
     <description>feedgen</description>
     <managingEditor>nobody@gmail.com (nobody)</managingEditor>
-    <pubDate>Mon, 01 Jan 2024 01:24:25 +0000</pubDate>
+    <pubDate>Thu, 01 Feb 2024 01:18:08 +0000</pubDate>
     <item>
-      <title>[2024-01-01] interview-questions</title>
+      <title>[2024-02-01] interview-questions</title>
       <link></link>
       <description></description>
       <content:encoded><![CDATA[<!DOCTYPE html>
@@ -15,74 +15,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="https://kpym.github.io/markdown-css/github.min.css">
+    <title>GoldMark</title>
   </head>
   <body>
     <article class="markdown-body">
 <h2 id="graphmd">graph.md</h2>
 <ul>
-<li>Rotate Image - <a href="https://leetcode.com/problems/rotate-image/">https://leetcode.com/problems/rotate-image/</a></li>
-<li>Group Anagrams - <a href="https://leetcode.com/problems/group-anagrams/">https://leetcode.com/problems/group-anagrams/</a></li>
-<li>Reorder List - [https://leetcode.com/problems/reorder-list/](<a href="https://leetcode.com/problems/reorder-list/">https://leetcode.com/problems/reorder-list/</a></li>
-<li>Longest Repeating Character Replacement - <a href="https://leetcode.com/problems/longest-repeating-character-replacement/">https://leetcode.com/problems/longest-repeating-character-replacement/</a></li>
 <li>Alien Dictionary (Leetcode Premium) - <a href="https://leetcode.com/problems/alien-dictionary/">https://leetcode.com/problems/alien-dictionary/</a></li>
-<li>Number of Islands - <a href="https://leetcode.com/problems/number-of-islands/">https://leetcode.com/problems/number-of-islands/</a></li>
-<li>Meeting Rooms II (Leetcode Premium) - [https://leetcode.com/problems/meeting-rooms-ii/](<a href="https://leetcode.com/problems/meeting-rooms-ii/">https://leetcode.com/problems/meeting-rooms-ii/</a></li>
-<li>Word Search - [https://leetcode.com/problems/word-search/](<a href="https://leetcode.com/problems/word-search/">https://leetcode.com/problems/word-search/</a></li>
-<li>Non-overlapping Intervals - <a href="https://leetcode.com/problems/non-overlapping-intervals/">https://leetcode.com/problems/non-overlapping-intervals/</a></li>
-<li>Longest Consecutive Sequence - <a href="https://leetcode.com/problems/longest-consecutive-sequence/">https://leetcode.com/problems/longest-consecutive-sequence/</a></li>
-<li>Encode and Decode Strings (Leetcode Premium) - [https://leetcode.com/problems/encode-and-decode-strings/](<a href="https://leetcode.com/problems/encode-and-decode-strings/">https://leetcode.com/problems/encode-and-decode-strings/</a></li>
+<li>Reorder List - [https://leetcode.com/problems/reorder-list/](<a href="https://leetcode.com/problems/reorder-list/">https://leetcode.com/problems/reorder-list/</a></li>
+<li>Palindromic Substrings - <a href="https://leetcode.com/problems/palindromic-substrings/">https://leetcode.com/problems/palindromic-substrings/</a></li>
+<li>Longest Substring Without Repeating Characters - <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">https://leetcode.com/problems/longest-substring-without-repeating-characters/</a></li>
 <li>Merge K Sorted Lists - <a href="https://leetcode.com/problems/merge-k-sorted-lists/">https://leetcode.com/problems/merge-k-sorted-lists/</a></li>
-<li>Valid Anagram - <a href="https://leetcode.com/problems/valid-anagram/">https://leetcode.com/problems/valid-anagram/</a></li>
-<li>Remove Nth Node From End Of List - <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">https://leetcode.com/problems/remove-nth-node-from-end-of-list/</a></li>
-<li>Detect Cycle in a Linked List - <a href="https://leetcode.com/problems/linked-list-cycle/">https://leetcode.com/problems/linked-list-cycle/</a></li>
+<li>Clone Graph - <a href="https://leetcode.com/problems/clone-graph/">https://leetcode.com/problems/clone-graph/</a></li>
+<li>Longest Palindromic Substring - <a href="https://leetcode.com/problems/longest-palindromic-substring/">https://leetcode.com/problems/longest-palindromic-substring/</a></li>
+<li>Number of Islands - <a href="https://leetcode.com/problems/number-of-islands/">https://leetcode.com/problems/number-of-islands/</a></li>
+<li>Meeting Rooms (Leetcode Premium) - <a href="https://leetcode.com/problems/meeting-rooms/">https://leetcode.com/problems/meeting-rooms/</a></li>
+<li>Merge Two Sorted Lists - <a href="https://leetcode.com/problems/merge-two-sorted-lists/">https://leetcode.com/problems/merge-two-sorted-lists/</a></li>
+<li>Pacific Atlantic Water Flow - <a href="https://leetcode.com/problems/pacific-atlantic-water-flow/">https://leetcode.com/problems/pacific-atlantic-water-flow/</a></li>
 <li>Spiral Matrix - <a href="https://leetcode.com/problems/spiral-matrix/">https://leetcode.com/problems/spiral-matrix/</a></li>
 <li>Reverse a Linked List - <a href="https://leetcode.com/problems/reverse-linked-list/">https://leetcode.com/problems/reverse-linked-list/</a></li>
-<li>Graph Valid Tree (Leetcode Premium) - <a href="https://leetcode.com/problems/graph-valid-tree/">https://leetcode.com/problems/graph-valid-tree/</a></li>
-<li>Palindromic Substrings - <a href="https://leetcode.com/problems/palindromic-substrings/">https://leetcode.com/problems/palindromic-substrings/</a></li>
-<li>Longest Palindromic Substring - <a href="https://leetcode.com/problems/longest-palindromic-substring/">https://leetcode.com/problems/longest-palindromic-substring/</a></li>
-<li>Insert Interval - <a href="https://leetcode.com/problems/insert-interval/">https://leetcode.com/problems/insert-interval/</a></li>
-<li>Pacific Atlantic Water Flow - <a href="https://leetcode.com/problems/pacific-atlantic-water-flow/">https://leetcode.com/problems/pacific-atlantic-water-flow/</a></li>
-<li>Set Matrix Zeroes - <a href="https://leetcode.com/problems/set-matrix-zeroes/">https://leetcode.com/problems/set-matrix-zeroes/</a></li>
-<li>Course Schedule - <a href="https://leetcode.com/problems/course-schedule/">https://leetcode.com/problems/course-schedule/</a></li>
-<li>Longest Substring Without Repeating Characters - <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">https://leetcode.com/problems/longest-substring-without-repeating-characters/</a></li>
-<li>Minimum Window Substring - <a href="https://leetcode.com/problems/minimum-window-substring/">https://leetcode.com/problems/minimum-window-substring/</a></li>
 <li>Number of Connected Components in an Undirected Graph (Leetcode Premium) - [https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/](<a href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/">https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/</a></li>
-<li>Merge Intervals - <a href="https://leetcode.com/problems/merge-intervals/">https://leetcode.com/problems/merge-intervals/</a></li>
-<li>Meeting Rooms (Leetcode Premium) - <a href="https://leetcode.com/problems/meeting-rooms/">https://leetcode.com/problems/meeting-rooms/</a></li>
+<li>Set Matrix Zeroes - <a href="https://leetcode.com/problems/set-matrix-zeroes/">https://leetcode.com/problems/set-matrix-zeroes/</a></li>
+<li>Group Anagrams - <a href="https://leetcode.com/problems/group-anagrams/">https://leetcode.com/problems/group-anagrams/</a></li>
+<li>Course Schedule - <a href="https://leetcode.com/problems/course-schedule/">https://leetcode.com/problems/course-schedule/</a></li>
+<li>Valid Parentheses - <a href="https://leetcode.com/problems/valid-parentheses/">https://leetcode.com/problems/valid-parentheses/</a></li>
+<li>Rotate Image - <a href="https://leetcode.com/problems/rotate-image/">https://leetcode.com/problems/rotate-image/</a></li>
+<li>Insert Interval - <a href="https://leetcode.com/problems/insert-interval/">https://leetcode.com/problems/insert-interval/</a></li>
+<li>Remove Nth Node From End Of List - <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">https://leetcode.com/problems/remove-nth-node-from-end-of-list/</a></li>
 <li>Valid Palindrome - <a href="https://leetcode.com/problems/valid-palindrome/">https://leetcode.com/problems/valid-palindrome/</a></li>
+<li>Word Search - [https://leetcode.com/problems/word-search/](<a href="https://leetcode.com/problems/word-search/">https://leetcode.com/problems/word-search/</a></li>
+<li>Non-overlapping Intervals - <a href="https://leetcode.com/problems/non-overlapping-intervals/">https://leetcode.com/problems/non-overlapping-intervals/</a></li>
+<li>Detect Cycle in a Linked List - <a href="https://leetcode.com/problems/linked-list-cycle/">https://leetcode.com/problems/linked-list-cycle/</a></li>
+<li>Longest Repeating Character Replacement - <a href="https://leetcode.com/problems/longest-repeating-character-replacement/">https://leetcode.com/problems/longest-repeating-character-replacement/</a></li>
+<li>Encode and Decode Strings (Leetcode Premium) - [https://leetcode.com/problems/encode-and-decode-strings/](<a href="https://leetcode.com/problems/encode-and-decode-strings/">https://leetcode.com/problems/encode-and-decode-strings/</a></li>
+<li>Minimum Window Substring - <a href="https://leetcode.com/problems/minimum-window-substring/">https://leetcode.com/problems/minimum-window-substring/</a></li>
+<li>Meeting Rooms II (Leetcode Premium) - [https://leetcode.com/problems/meeting-rooms-ii/](<a href="https://leetcode.com/problems/meeting-rooms-ii/">https://leetcode.com/problems/meeting-rooms-ii/</a></li>
+<li>Graph Valid Tree (Leetcode Premium) - <a href="https://leetcode.com/problems/graph-valid-tree/">https://leetcode.com/problems/graph-valid-tree/</a></li>
 </ul>
 <h2 id="leetcodemd">leetcode.md</h2>
 <ul>
+<li>Number of 1 Bits - <a href="https://leetcode.com/problems/number-of-1-bits/">https://leetcode.com/problems/number-of-1-bits/</a></li>
+<li>Invert/Flip Binary Tree - <a href="https://leetcode.com/problems/invert-binary-tree/">https://leetcode.com/problems/invert-binary-tree/</a></li>
+<li>Maximum Depth of Binary Tree - <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">https://leetcode.com/problems/maximum-depth-of-binary-tree/</a></li>
+<li>Counting Bits - <a href="https://leetcode.com/problems/counting-bits/">https://leetcode.com/problems/counting-bits/</a></li>
+<li>House Robber - <a href="https://leetcode.com/problems/house-robber/">https://leetcode.com/problems/house-robber/</a></li>
+<li>Combination Sum - <a href="https://leetcode.com/problems/combination-sum-iv/">https://leetcode.com/problems/combination-sum-iv/</a></li>
+<li>Two Sum - <a href="https://leetcode.com/problems/two-sum/">https://leetcode.com/problems/two-sum/</a></li>
+<li>Same Tree - <a href="https://leetcode.com/problems/same-tree/">https://leetcode.com/problems/same-tree/</a></li>
+<li>Product of Array Except Self - <a href="https://leetcode.com/problems/product-of-array-except-self/">https://leetcode.com/problems/product-of-array-except-self/</a></li>
+<li>Binary Tree Maximum Path Sum - <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">https://leetcode.com/problems/binary-tree-maximum-path-sum/</a></li>
+<li>Maximum Product Subarray - <a href="https://leetcode.com/problems/maximum-product-subarray/">https://leetcode.com/problems/maximum-product-subarray/</a></li>
+<li>House Robber II - <a href="https://leetcode.com/problems/house-robber-ii/">https://leetcode.com/problems/house-robber-ii/</a></li>
+<li>Add and Search Word - <a href="https://leetcode.com/problems/add-and-search-word-data-structure-design/">https://leetcode.com/problems/add-and-search-word-data-structure-design/</a></li>
 <li>Coin Change - <a href="https://leetcode.com/problems/coin-change/">https://leetcode.com/problems/coin-change/</a></li>
 <li>Sum of Two Integers - <a href="https://leetcode.com/problems/sum-of-two-integers/">https://leetcode.com/problems/sum-of-two-integers/</a></li>
-<li>Combination Sum - <a href="https://leetcode.com/problems/combination-sum-iv/">https://leetcode.com/problems/combination-sum-iv/</a></li>
-<li>Container With Most Water - [https://leetcode.com/problems/container-with-most-water/](<a href="https://leetcode.com/problems/container-with-most-water/">https://leetcode.com/problems/container-with-most-water/</a></li>
-<li>House Robber - <a href="https://leetcode.com/problems/house-robber/">https://leetcode.com/problems/house-robber/</a></li>
-<li>Find Minimum in Rotated Sorted Array - <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/</a></li>
-<li>Maximum Product Subarray - <a href="https://leetcode.com/problems/maximum-product-subarray/">https://leetcode.com/problems/maximum-product-subarray/</a></li>
+<li>Top K Frequent Elements - <a href="https://leetcode.com/problems/top-k-frequent-elements/">https://leetcode.com/problems/top-k-frequent-elements/</a></li>
 <li>Serialize and Deserialize Binary Tree - <a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/">https://leetcode.com/problems/serialize-and-deserialize-binary-tree/</a></li>
-<li>Word Search II - [https://leetcode.com/problems/word-search-ii/](<a href="https://leetcode.com/problems/word-search-ii/">https://leetcode.com/problems/word-search-ii/</a></li>
-<li>Search in Rotated Sorted Array - <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">https://leetcode.com/problems/search-in-rotated-sorted-array/</a></li>
-<li>3Sum - <a href="https://leetcode.com/problems/3sum/">https://leetcode.com/problems/3sum/</a></li>
-<li>Merge K Sorted Lists - <a href="https://leetcode.com/problems/merge-k-sorted-lists/">https://leetcode.com/problems/merge-k-sorted-lists/</a></li>
-<li>Find Median from Data Stream - <a href="https://leetcode.com/problems/find-median-from-data-stream/">https://leetcode.com/problems/find-median-from-data-stream/</a></li>
-<li>Add and Search Word - <a href="https://leetcode.com/problems/add-and-search-word-data-structure-design/">https://leetcode.com/problems/add-and-search-word-data-structure-design/</a></li>
-<li>Invert/Flip Binary Tree - <a href="https://leetcode.com/problems/invert-binary-tree/">https://leetcode.com/problems/invert-binary-tree/</a></li>
-<li>Two Sum - <a href="https://leetcode.com/problems/two-sum/">https://leetcode.com/problems/two-sum/</a></li>
+<li>Validate Binary Search Tree - <a href="https://leetcode.com/problems/validate-binary-search-tree/">https://leetcode.com/problems/validate-binary-search-tree/</a></li>
 <li>Subtree of Another Tree - <a href="https://leetcode.com/problems/subtree-of-another-tree/">https://leetcode.com/problems/subtree-of-another-tree/</a></li>
-<li>Product of Array Except Self - <a href="https://leetcode.com/problems/product-of-array-except-self/">https://leetcode.com/problems/product-of-array-except-self/</a></li>
-<li>House Robber II - <a href="https://leetcode.com/problems/house-robber-ii/">https://leetcode.com/problems/house-robber-ii/</a></li>
-<li>Same Tree - <a href="https://leetcode.com/problems/same-tree/">https://leetcode.com/problems/same-tree/</a></li>
-<li>Unique Paths - <a href="https://leetcode.com/problems/unique-paths/">https://leetcode.com/problems/unique-paths/</a></li>
-<li>Maximum Depth of Binary Tree - <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">https://leetcode.com/problems/maximum-depth-of-binary-tree/</a></li>
-<li>Binary Tree Maximum Path Sum - <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">https://leetcode.com/problems/binary-tree-maximum-path-sum/</a></li>
-<li>Missing Number - <a href="https://leetcode.com/problems/missing-number/">https://leetcode.com/problems/missing-number/</a></li>
-<li>Number of 1 Bits - <a href="https://leetcode.com/problems/number-of-1-bits/">https://leetcode.com/problems/number-of-1-bits/</a></li>
-<li>Reverse Bits - [https://leetcode.com/problems/reverse-bits/](<a href="https://leetcode.com/problems/reverse-bits/">https://leetcode.com/problems/reverse-bits/</a></li>
-<li>Lowest Common Ancestor of BST - <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/</a></li>
-<li>Best Time to Buy and Sell Stock - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">https://leetcode.com/problems/best-time-to-buy-and-sell-stock/</a></li>
+<li>Find Median from Data Stream - <a href="https://leetcode.com/problems/find-median-from-data-stream/">https://leetcode.com/problems/find-median-from-data-stream/</a></li>
 <li>Kth Smallest Element in a BST - <a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">https://leetcode.com/problems/kth-smallest-element-in-a-bst/</a></li>
-<li>Maximum Subarray - <a href="https://leetcode.com/problems/maximum-subarray/">https://leetcode.com/problems/maximum-subarray/</a></li>
+<li>Contains Duplicate - <a href="https://leetcode.com/problems/contains-duplicate/">https://leetcode.com/problems/contains-duplicate/</a></li>
+<li>Lowest Common Ancestor of BST - <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/</a></li>
+<li>Search in Rotated Sorted Array - <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">https://leetcode.com/problems/search-in-rotated-sorted-array/</a></li>
+<li>Longest Common Subsequence - <a href="https://leetcode.com/problems/longest-common-subsequence/">https://leetcode.com/problems/longest-common-subsequence/</a></li>
+<li>Unique Paths - <a href="https://leetcode.com/problems/unique-paths/">https://leetcode.com/problems/unique-paths/</a></li>
+<li>Reverse Bits - [https://leetcode.com/problems/reverse-bits/](<a href="https://leetcode.com/problems/reverse-bits/">https://leetcode.com/problems/reverse-bits/</a></li>
+<li>Longest Increasing Subsequence - <a href="https://leetcode.com/problems/longest-increasing-subsequence/">https://leetcode.com/problems/longest-increasing-subsequence/</a></li>
+<li>3Sum - <a href="https://leetcode.com/problems/3sum/">https://leetcode.com/problems/3sum/</a></li>
+<li>Container With Most Water - [https://leetcode.com/problems/container-with-most-water/](<a href="https://leetcode.com/problems/container-with-most-water/">https://leetcode.com/problems/container-with-most-water/</a></li>
 </ul>
 
     </article>
@@ -90,8 +91,8 @@
 </html>
 ]]></content:encoded>
       <author>nobody</author>
-      <guid>1704072265</guid>
-      <pubDate>Mon, 01 Jan 2024 01:24:25 +0000</pubDate>
+      <guid>1706750288</guid>
+      <pubDate>Thu, 01 Feb 2024 01:18:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
